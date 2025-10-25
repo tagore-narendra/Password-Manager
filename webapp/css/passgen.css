@@ -1,0 +1,80 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 20%;             
+  margin-top: 30px;       
+  margin-left: 100px;       
+ 
+}
+
+h2 {
+  text-align: center;
+  color: #4caf50;
+  font-size: 24px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.options {
+  margin-top: 10px;
+}
+
+.options label {
+  font-weight: normal;
+}
+
+/* Scoped buttons inside container */
+.container button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.output {
+  margin-top: 20px;
+  background: #f1f1f1;
+  padding: 10px;
+  font-family: monospace;
+  text-align: center;
+  border-radius: 5px;
+  word-break: break-word;
+}
+
+.copy-btn {
+  margin-top: 10px;
+  background: #555 !important;
+}
+span{
+	font-weight:700;
+}
+.nav-links li a.active {
+    background: #e6f4ea;
+    color: #2f8d46;
+    border-left: 3px solid #2f8d46;
+}

@@ -1,0 +1,130 @@
+@charset "UTF-8";
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;             
+  margin-top: 150px;       
+  margin-left: 300px;       
+ 
+}
+
+h2 {
+  text-align: center;
+  color: #4caf50;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-top: 15px;
+}
+
+.password-wrapper {
+  position: relative;
+}
+
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.strength-result {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.weak {
+  background-color: #ff9999;
+  color: #800000;
+}
+
+.medium {
+  background-color: #ffff99;
+  color: #666600;
+}
+
+.strong {
+  background-color: #99ff99;
+  color: #006600;
+}
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+  display: none;
+}
+
+input[type="password"]::-webkit-contacts-auto-fill-button,
+input[type="password"]::-webkit-credentials-auto-fill-button,
+input[type="password"]::-webkit-clear-button,
+input[type="password"]::-webkit-reveal-button {
+  display: none;
+}
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 15px;
+}
+#sbtn{
+	color:white;
+	font-weight:700;
+}
+.nav-links li a.active {
+    background: #e6f4ea;
+    color: #2f8d46;
+    border-left: 3px solid #2f8d46;
+}
+.strength-result {
+  margin-top: 15px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.strength-img {
+  margin-top: 8px;
+  width: 80px;   /* adjust size as needed */
+  height: auto;
+}
+.checker-wrapper {
+  display: flex;
+  gap: 50px;                /* adds 50px space between form and image */
+  align-items: flex-start;
+}
+
+.checker-left {
+  flex: 1;
+}
+
+.checker-right {
+  flex-shrink: 0;
+}
+
+.side-image {
+	margin-top:80px;
+  width: 400px;         /* adjust as needed */
+  height: 400px;
+  border-radius: 10x;
+  /* box-shadow: 0 0 10px rgb(255, 255, 255); */
+  /* border-left:1px solid white; */
+  background-color:red;
+}

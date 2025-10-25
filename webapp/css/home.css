@@ -1,0 +1,75 @@
+@charset "UTF-8";
+.main-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.main-content h1 {
+    color: #2f8d46;  /* GfG green heading */
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    color: #555;
+    font-size: 16px;
+}
+.nav-links li a.active {
+    background: #e6f4ea;
+    color: #2f8d46;
+    border-left: 3px solid #2f8d46;
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+}
+
+.main-content h1 {
+    color: #2f8d46;
+    margin-bottom: 10px;
+}
+
+.main-content p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.features {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.feature-item {
+	width:500px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-left: 4px solid #2f8d46;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    color: #333;
+}
+
+.cta-buttons {
+    margin-top: 20px;
+}
+
+.cta-buttons .btn {
+    display: inline-block;
+    margin-right: 10px;
+    background: #2f8d46;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background 0.3s;
+}
+
+.cta-buttons .btn:hover {
+    background: #256d38;
+}
+
+
